@@ -6,5 +6,6 @@ import java.util.List;
 
 
 public interface NasaDao {
+    public List<NasaNearEarthObject> getAsteroids(String date);
     List<NasaNearEarthObject> getAsteroids(String date);
 }
